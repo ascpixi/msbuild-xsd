@@ -3,7 +3,7 @@
 elementFormDefault="qualified">
 
     <!-- =================== INCLUDE COMMON SCHEMA =========================== -->
-    <xs:include schemaLocation="Microsoft.Build.Core.xsd"/>
+    <xs:include schemaLocation="https://raw.githubusercontent.com/ascpixi/msbuild-xsd/main/MSBuild/Microsoft.Build.Core.xsd"/>
 
     <!-- ======================== ITEMS =====================================-->
     <!-- Possible Types include SimpleItemType (no meta-data subelements), GenericItemType (any meta-data), or something more specific.-->
